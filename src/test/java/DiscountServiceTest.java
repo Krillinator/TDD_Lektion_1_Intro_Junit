@@ -27,7 +27,9 @@ public class DiscountServiceTest {
 
     @Test
     void doNotApplyDiscountWhenSumIsUnder500() {
+
         DiscountService discountService = new DiscountService();
+
         double sum = 499;
         double discount = 0; // ??
 
